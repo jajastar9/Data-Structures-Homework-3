@@ -1,0 +1,74 @@
+Question 1
+ADT stands for Abstract Data Type.
+
+Question 2
+An ADT is a Data Structure that follows a set of rules in how it operates.
+
+Question 3
+The difference between an ADT and its implementation is in the idea that the ADT tells the end user what it's supposed to do, and the implementation is how the ADT operates so that it does so.
+
+Question 4
+Two programmers can absolutely implement an ADT in two different ways. There are multiple ways to implement any ADT, such as using different loops, different ordering, etc.
+
+Question 5
+Both implementations are different however they still operate by the rules of ADT Stack, which means that both of them are stacks.
+
+Question 6
+LIFO means Last In First Out. The first one that leaves the stack will be the more recent one added
+
+Question 7
+55 was the most recent element added to the stack.
+
+Question 8
+pop() would remove the most recent element added, being D.
+
+Question 9
+Shotgun tube magazine. The last shell loaded is the first shell that traverses to the chamber. For example, if I were to load a tube with a max capacity of 5 with [B,B,S,S,F], the first shell fired would be the F, followed by the two S, and then the B.
+
+Question 10
+FIFO means First In First Out.
+
+Question 11
+15 was the first element to be added to the queue.
+
+Question 12
+Alex was the first element added to the queue, and will be the first one to leave.
+
+Question 13
+Waiting in line at a fast food restaruant. The first one to order will have their order processed, and will leave the queue and the store with their food, usually before the second person is processed, assuming there is not more than one person working.
+
+Scenario 1 — Undo Feature
+A stack, as the undo button is there to reverse the most recent decision made.
+
+Scenario 2 — Printer
+A queue, as the students will all expect their submitted documents to print in a timely fashion.
+
+Scenario 3 — Browser Back Button
+The page that shows up first should be Github. It resembles the ADT Stack.
+
+Scenario 4 — Customer Service
+A queue, as the customers will assume that they will be served in the order they arrived and will be rather cross if they see someone that came after them, get served before them.
+
+Scenario 5 — Plates
+You... stack... the plates. It's a stack.
+
+Question 14
+pop() returns 18.
+
+Question 15
+Final peek() returns 22.
+
+Question 16
+dequeue() returns 7.
+
+Question 17
+Final peek() returns 12.
+
+Tables in txt file great
+Feature                 |Stack                  |Queue                        
+Rule                    |LIFO                   |FIFO
+Add Operation           |push (front of list)   |enQueue (back of list)
+Remove Operation        |pop (youngest)         |deQueue (eldest)
+View Next Item          |peek (youngest)        |peek (eldest)
+First Item Removed      |Last item added        |First item added
+
